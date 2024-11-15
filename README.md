@@ -13,7 +13,7 @@ To solve Implementation of Classical Planning Algorithm using python
 </ol>
 
 # Example - 1
-```
+```py
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
 
@@ -30,7 +30,7 @@ print(plan)
 ['move_A_to_B']
 ```
 # Example - 2
-```
+```py
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
 
@@ -54,10 +54,10 @@ print(plan)
 # Program
 
 ```
-Name: Dario G
-Register Number: 212222230027
+Name: LAAKSHIT D
+Register Number: 212222230071
 ```
-```
+```py
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
