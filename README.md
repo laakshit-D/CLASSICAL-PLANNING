@@ -1,6 +1,6 @@
 # ExpNo:10 Implementation of Classical Planning Algorithm
 
-# Aim
+# Aim:
 To solve Implementation of Classical Planning Algorithm using python
 
 # Algorithm or Steps Involved:
