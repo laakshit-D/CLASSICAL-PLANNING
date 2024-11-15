@@ -1,6 +1,8 @@
-# Exp No:10 Implementation of Classical Planning Algorithm
-# AIM:
-To solve Implementation of Classical Planning Algorithm using python.
+# ExpNo:10 Implementation of Classical Planning Algorithm
+
+# Aim
+To solve Implementation of Classical Planning Algorithm using python
+
 # Algorithm or Steps Involved:
 <ol>
   <li>Define the initial state</li>
@@ -11,7 +13,7 @@ To solve Implementation of Classical Planning Algorithm using python.
 </ol>
 
 # Example - 1
-```py
+```
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
 
@@ -28,7 +30,7 @@ print(plan)
 ['move_A_to_B']
 ```
 # Example - 2
-```py
+```
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
 
@@ -49,8 +51,13 @@ print(plan)
 # Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
 <h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
 
-## Program:
-```py
+# Program
+
+```
+Name: Dario G
+Register Number: 212222230027
+```
+```
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -83,8 +90,7 @@ def find_plan(initial_state, goal_state, actions):
     return None
 def is_applicable(current_state, precondition):
     return all(current_state.get(key) == value for key, value in precondition.items())
-# Example usage
-'''
+# Example
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'B', 'B': 'Table'}
 
@@ -95,7 +101,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
+
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
 goal_state = {'A': 'B', 'B': 'C', 'C': 'Table'}
 
@@ -107,7 +113,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print(plan)
-'''
+
 initial_state = {'A': 'Table', 'B': 'Table'}
 goal_state = {'A': 'Table', 'B': 'Table'}
 
@@ -119,12 +125,9 @@ plan = find_plan(initial_state, goal_state, actions)
 print(plan)
 ```
 
-## Output:
+# Output
 
-![image](https://github.com/kavinesh8476/19AI405ExpNo10/assets/118466561/50ee2f25-e9b6-4db2-a1dd-809ba2af6774)
+![image](https://github.com/user-attachments/assets/3504400b-c02e-4383-8b8d-7d0f0a521f74)
 
-
-## Result:
+# Result
 Therefore,Implementation of Classical Planning Algorithm is implemetated successfully.
-
-
